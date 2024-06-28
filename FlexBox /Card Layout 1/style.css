@@ -1,0 +1,23 @@
+#container-one {
+    display: flex;
+    background-color: springgreen;
+    flex-wrap: wrap;
+}
+
+#container-one div {
+    border: 1px solid black;
+    margin: 10px;
+    padding-left: 30px;
+}
+
+#box-two,
+#box-three,
+#box-four,
+#box-five,
+#box-six {
+    flex: 1;
+}
+
+#box-one {
+    flex: 4;
+}
