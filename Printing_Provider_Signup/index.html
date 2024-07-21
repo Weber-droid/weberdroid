@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printify Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Printify</h1>
+            <p class="subheading">Signing up as Printing Provider...</p>
+        </header>
+        <form action="#" method="post">
+            <label for="shopName">Name of Shop</label>
+            <input type="text" id="shopName" name="shopName" required>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label><br>
+                    <input type="text" id="location" name="location" required>
+                </div>
+            </div>
+
+            <label>Services Provided</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="services" value="Graphic Designing"> Graphic Designing</label>
+                <label><input type="checkbox" name="services" value="Large Format Printing"> Large Format Printing</label>
+                <label><input type="checkbox" name="services" value="Document Printing"> Document Printing</label>
+                <label><input type="checkbox" name="services" value="T-Shirt Printing"> T-Shirt Printing</label>
+            </div>
+
+            <label>Working Days</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="days" value="Monday"> Monday</label>
+                <label><input type="checkbox" name="days" value="Tuesday"> Tuesday</label>
+                <label><input type="checkbox" name="days" value="Wednesday"> Wednesday</label>
+                <label><input type="checkbox" name="days" value="Thursday"> Thursday</label>
+                <label><input type="checkbox" name="days" value="Friday"> Friday</label>
+                <label><input type="checkbox" name="days" value="Saturday"> Saturday</label>
+                <label><input type="checkbox" name="days" value="Sunday"> Sunday</label>
+            </div>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+        <div class="links">
+            <a href="#">Already have an account? Login</a>
+            <a href="#">Forgotten Password?</a>
+        </div>
+    </div>
+</body>
+
+</html>
